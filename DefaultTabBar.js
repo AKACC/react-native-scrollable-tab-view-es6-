@@ -21,7 +21,7 @@ class DefaultTabBar extends Component {
   }
 
   renderTab(name, page, isTabActive, onPressHandler) {
-        console.log(this.props)
+      
         const activeTextColor = this.props.activeTextColor;
         const inactiveTextColor = this.props.inactiveTextColor;
         const textStyle = this.props.textStyle;
